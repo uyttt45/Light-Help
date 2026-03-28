@@ -1,35 +1,40 @@
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-:: 检查是否为管理员
+:: Check if the user is running as Administrator
 net session >nul 2>&1
 if %errorlevel% neq 0 (
-    echo 请以管理员身份运行此脚本。
+    echo Please run this script as Administrator.
     pause
     exit /b
 )
 
-:: 获取用户输入的共享文件夹路径
-set /p folderPath=请输入要共享的文件夹路径（例如：C:\Users\YourUser\Documents\iphone）:
+:: Prompt the user to input the folder or disk to share
+echo Please enter the path of the folder or drive you want to share (e.g., C:\Users\YourUser\Documents or D:\):
+set /p folderPath=Path: 
 
-:: 检查文件夹路径是否存在
+:: Check if the folder or drive exists
 if not exist "%folderPath%" (
-    echo 错误：指定的路径不存在：%folderPath%
+    echo Error: The specified path does not exist: %folderPath%
     pause
     exit /b
 )
 
-:: 启用 SMB 协议
-echo 启用 SMB 协议...
+:: Enable SMB protocol (SMB1 and SMB2 for compatibility)
+echo Enabling SMB protocol...
 dism /online /enable-feature /featurename:SMB1Protocol /all /norestart
+dism /online /enable-feature /featurename:SMB2Protocol /all /norestart
 net stop "lanmanserver"
 net start "lanmanserver"
 
-:: 创建并共享文件夹
-echo 设置共享文件夹...
-net share iphone="%folderPath%" /GRANT:everyone,FULL
+:: Prompt user for the share name
+echo Please enter a name for the shared folder (e.g., "Shared_Folder"):
+set /p shareName=Share Name: 
 
-echo 完成！SMB 已启用，'%folderPath%' 文件夹已共享。
+:: Create the share
+echo Sharing the folder...
+net share %shareName%="%folderPath%" /GRANT:everyone,FULL
 
+echo Finished! SMB is enabled and the folder "%folderPath%" is now shared as "%shareName%".
 pause
 ENDLOCAL
