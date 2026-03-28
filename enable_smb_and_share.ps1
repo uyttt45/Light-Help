@@ -22,7 +22,7 @@ $isAdmin = [bool]([Security.Principal.WindowsIdentity]::GetCurrent().Groups -mat
 $FilePath = if ($isAdmin) { "$env:SystemRoot\Temp\SMB_Share_$rand.cmd" } else { "$env:TEMP\SMB_Share_$rand.cmd" }
 
 # 下载批处理脚本
-$DownloadURL = 'https://raw.githubusercontent.com/Cotton059/Light-Help/refs/heads/main/enable_smb_and_share.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/yourusername/yourrepository/main/enable_smb_and_share.cmd'
 
 try {
     $response = Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing
@@ -32,8 +32,8 @@ catch {
     exit
 }
 
-# 将文件夹路径替换到 CMD 脚本内容中
-$content = $response.Content -replace "{FOLDER_PATH}", $folderPath
+# 将文件夹路径替换到 CMD 脚本内容中，并确保路径用引号包裹
+$content = $response.Content -replace "{FOLDER_PATH}", "`"$folderPath`""
 
 # 创建临时 .CMD 文件
 Set-Content -Path $FilePath -Value $content
