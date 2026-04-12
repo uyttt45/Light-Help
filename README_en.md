@@ -15,7 +15,42 @@
 > 🔗 [Visit my Bilibili Homepage](https://space.bilibili.com/392977516)
 
 ---
+**Light Speed Share Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/USNIBEAcWME)  
+*(Help project, exclusively for viewers)*
 
+<a href="https://youtu.be/USNIBEAcWME" target="_blank">
+  <img src="https://github.com/user-attachments/assets/ac237aef-5700-4b87-a8a4-ab16a8c7391e" width="320" alt="视频封面图" />
+</a>
+
+
+## 💻 Quick Start (Windows + X)
+Run the following command in **PowerShell Administrator Mode**:Create a shared folder and toggle on SMB
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/SMB_Share_Tool.ps1 | iex
+```
+
+## 💻 Quick Start (Windows + X)
+Run the following command in **PowerShell Administrator Mode**:Grab your username and local IP address
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/GetInfo.ps1 | iex
+```
+
+## 💻 Quick Start (Windows + X)
+Run the following command in **PowerShell Administrator Mode**:Set a system password (if you don't have one)
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/ResetPass.ps1 | iex
+```
+
+## 💻 Quick Start (Windows + X)
+Run the following command in **PowerShell Administrator Mode**:Configure auto-login for a seamless boot experience
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/Win1011AutoLogin.ps1 | iex
+```
+---
 #### 📺 Video Tutorial
 **Light Speed Share Video:** [Wireless transfer of iPhone photos and videos to Windows without any software](https://youtu.be/USNIBEAcWME)  
 *(Help project, exclusively for viewers)*
