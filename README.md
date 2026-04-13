@@ -15,10 +15,10 @@
 > 🔗 [访问我的 Bilibili 主页](https://space.bilibili.com/392977516)
 
 ---
-**光速分享视频：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/USNIBEAcWME)  
+**光速分享视频：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
 *（帮助项目，观看用户专用）*
 
-<a href="https://youtu.be/USNIBEAcWME" target="_blank">
+<a href="https://youtu.be/EPpgy2S_9lg" target="_blank">
   <img src="https://github.com/user-attachments/assets/0e01384f-1042-4239-b52d-be3b1d7315e4" width="320" alt="视频封面图" />
 </a>
 
