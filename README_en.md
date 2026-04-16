@@ -13,7 +13,21 @@
 > I will continue to bring you more convenient and better tech videos.  
 > 🔗 [Visit my YouTube Channel](https://www.youtube.com/@光速分享)  
 > 🔗 [Visit my Bilibili Homepage](https://space.bilibili.com/392977516)
+---
+**Lightspeed Sharing Video:**[How to Deep Clean Windows with 1 Line of Code! (No Software Needed)](https://youtu.be/f5Ta_W54GL0)  
+*(Help project, exclusively for viewers)*
 
+<a href="https://youtu.be/f5Ta_W54GL0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/33502f93-49fd-4cfc-a3c4-2611f2bd0b4f" width="320" alt="视频封面图" />
+</a>
+
+
+## 💻 Quick Start (Windows + X)
+Run the following command in **PowerShell Administrator Mode**:Run Light-Help 1-Click Cleanup Command
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
+```
 ---
 **Lightspeed Sharing Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/EPpgy2S_9lg)  
 *(Help project, exclusively for viewers)*
