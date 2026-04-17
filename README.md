@@ -25,7 +25,7 @@
 在 **PowerShell 管理员模式** 中运行以下命令：运行Light-Help,一键清理命令
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/uyttt45/Light-Help/main/DeepClean_Tool.ps1 | iex
 ```
 ---
 **光速分享视频：** [免费家庭影院搭建教程｜无需NAS，一台电脑实现自动海报墙 + 全设备播放](https://youtu.be/EPpgy2S_9lg)  
