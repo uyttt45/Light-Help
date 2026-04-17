@@ -14,7 +14,7 @@ Write-Host " |          >>> WINDOWS DEEP CLEANING ENGINE V7 <<<         |" -Fore
 Write-Host " |                                                          |" -ForegroundColor Cyan
 Write-Host " +----------------------------------------------------------+" -ForegroundColor Cyan
 Write-Host " |  Author: Lightspeed Sharing                              |" -ForegroundColor Yellow
-Write-Host " |  GitHub: https://github.com/uyttt45/Light-Help         |" -ForegroundColor Yellow
+Write-Host " |  GitHub: https://github.com/uyttt45/Light-Help           |" -ForegroundColor Yellow
 Write-Host " |  Status: Real-Time Matrix Scan (Exact Count Mode)        |" -ForegroundColor DarkGray
 Write-Host " +----------------------------------------------------------+" -ForegroundColor Cyan
 Write-Host ""
