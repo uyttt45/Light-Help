@@ -8,7 +8,7 @@ cd /d "%~dp0"
 :: 2. Meta Data 
 set "APP_NAME=SECURE SMB ONE-CLICK DEPLOY TOOL"
 set "AUTHOR=Light Speed Share (GSFX)"
-set "PROJECT=github.com/Cotton059/Light-Help"
+set "PROJECT=github.com/uyttt45/Light-Help"
 
 :: 3. UI Configuration
 title %APP_NAME%
