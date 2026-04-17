@@ -1,4 +1,4 @@
-# Check the instructions here on how to use it https://github.com/Cotton059/Light-Help/wiki
+# Check the instructions here on how to use it https://github.com/uyttt45/Light-Help/wiki
 
 
 $ErrorActionPreference = "Stop"
