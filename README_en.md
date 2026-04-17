@@ -26,7 +26,7 @@
 Run the following command in **PowerShell Administrator Mode**:Run Light-Help 1-Click Cleanup Command
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/Cotton059/Light-Help/main/DeepClean_Tool.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/uyttt45/Light-Help/main/DeepClean_Tool.ps1 | iex
 ```
 ---
 **Lightspeed Sharing Video:**[Build a Pro Home Theater Without a NAS! Auto-Posters & Streaming on Any Device](https://youtu.be/EPpgy2S_9lg)  
